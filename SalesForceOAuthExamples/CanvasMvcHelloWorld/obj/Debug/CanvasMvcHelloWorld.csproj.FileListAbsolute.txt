@@ -1,0 +1,8 @@
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\bin\CanvasMvcHelloWorld.dll.config
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\bin\CanvasMvcHelloWorld.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\bin\CanvasMvcHelloWorld.pdb
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\bin\SalesForceOAuth.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\bin\SalesForceOAuth.pdb
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\obj\Debug\CanvasMvcHelloWorld.csprojResolveAssemblyReference.cache
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\obj\Debug\CanvasMvcHelloWorld.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuthExamples\CanvasMvcHelloWorld\obj\Debug\CanvasMvcHelloWorld.pdb

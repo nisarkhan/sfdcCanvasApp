@@ -1,0 +1,7 @@
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Debug\SalesForceOAuth.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Debug\SalesForceOAuth.pdb
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Debug\SalesForceOAuth.dll.CodeAnalysisLog.xml
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Debug\SalesForceOAuth.dll.lastcodeanalysissucceeded
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\obj\Debug\SalesForceOAuth.csprojResolveAssemblyReference.cache
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\obj\Debug\SalesForceOAuth.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\obj\Debug\SalesForceOAuth.pdb

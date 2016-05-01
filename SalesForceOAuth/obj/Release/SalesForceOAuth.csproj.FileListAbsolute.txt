@@ -1,0 +1,4 @@
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Release\SalesForceOAuth.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\bin\Release\SalesForceOAuth.pdb
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\obj\Release\SalesForceOAuth.dll
+C:\Development\SFDC Development\canvas app\salesforce-canvas-dotnet-master\SalesForceOAuth\obj\Release\SalesForceOAuth.pdb

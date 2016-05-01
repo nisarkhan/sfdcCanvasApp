@@ -1,0 +1,111 @@
+﻿@model CanvasMvcHelloWorld.Models.HelloWorldModel
+<html>
+    <head>
+        <title>Index</title>    
+    </head>
+    <body>
+        <h2>Index</h2>
+      
+        <div class="col-lg-12">
+            <div class="panel panel-info"> 
+
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                  
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="Business">
+                                @using (Html.BeginForm())
+                                {
+                                <div class="form-horizontal">
+                                    <hr />
+                                    <div class="row">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="form-group">
+                                                    <label for="" class="col-xs-5 control-label">Org. Name:</label>
+                                                    <div class="col-xs-7">
+                                                      @Model.myRootObject.context.organization.name
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-xs-5 control-label">User Name:</label>
+                                                <div class="col-xs-7">
+                                                    @Model.myRootObject.context.user.userName
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-xs-5 control-label">First Name:</label>
+                                                <div class="col-xs-7"> 
+                                                    @Model.myRootObject.context.user.firstName
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-xs-5 control-label">Last Name:</label>
+                                                <div class="col-xs-7">
+                                                    @Model.myRootObject.context.user.lastName 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-xs-5 control-label">Email Address:</label>
+                                                <div class="col-xs-7"> 
+                                                    @Model.myRootObject.context.user.email                                                  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="form-horizontal">
+                                        @foreach (var kvp in Model.myRootObject.context.environment.parameters)
+                                        {
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <div class="form-group">
+                                                        <label for="" class="col-xs-5 control-label"> @kvp.Key:</label>
+                                                        <div class="col-xs-7">
+                                                            @kvp.Value</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        
+                                    </div>
+                                    <div class="row text-right">
+                                    <div class="row text-right">
+                                        <div class="col-xs-12">
+                                            <button class="btn btn-success" type="submit" id="btnSavetoDB" name="submitButton" value="Save to DB">
+                                                <span> <i class="fa fa-save"></i>  Save to Database </span>
+                                            </button> 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                
+            </div>
+        </div>
+    </body>
+</html>
+

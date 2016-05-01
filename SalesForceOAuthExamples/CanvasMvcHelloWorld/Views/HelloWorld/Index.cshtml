@@ -1,0 +1,110 @@
+﻿@model CanvasMvcHelloWorld.Models.HelloWorldModel
+<html>
+    <head>
+        <title>Index</title>    
+    </head>
+    <body>
+        <h2>Index</h2>
+        <ul>
+            <li>@Model.Greeting</li>
+            <li>Signed Request Status:
+                <div>
+                    @Model.SignedRequestStatus
+                </div>
+            </li>
+        </ul>
+        <br />
+        <br />
+        @if (!Model.SignedRequestStatus.Contains("Did not find"))
+        {
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <br />
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="" class="col-xs-6 control-label">Covered by DR Contract:</label>
+                                        <div class="col-xs-6">
+                                            <div class="btn-group" data-toggle="buttons">
+                                                @*<input type="text" name="txt1" class="form-control">*@
+                                                xxxxx
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="" class="col-xs-6 control-label">H/W Warranty Information / Contract #:</label>
+                                        <div class="col-xs-6">
+                                            @*<input type="text" name="txt2" class="form-control">*@
+                                            abc
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="" class="col-xs-6 control-label">Patching Group:</label>
+                                        <div class="col-xs-6">
+                                            @*<input type="text" name="txt3" class="form-control">*@
+                                            abcdef
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label class="col-xs-6 control-label">Reboot Description:</label>
+                                        <div class="col-xs-6">
+                                            @*<input type="text" name="txt4" class="form-control">*@
+                                            aaa
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label class="col-xs-6 control-label">S/W Support Vendor:</label>
+                                        <div class="col-xs-6">
+                                            @*<input type="text" name="txt5" class="form-control">*@
+                                            23423
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-right">
+                <div class="row text-right">
+                    <div class="col-xs-12">
+                        <button class="btn btn-success" type="submit" id="btnSavetoDB" name="submitButton" value="Save to DB">
+                            <span> <i class="fa fa-save"></i>  Save to Database </span>
+                        </button>
+                        &nbsp;&nbsp;&nbsp;
+                        <button class="btn btn-danger" type="submit" id="btnRemoveFromGrid" name="submitButton" value="Remove Item From Grid">
+                            <span> <i class="fa fa-remove"></i>  Remove </span>
+                        </button>
+                        &nbsp;&nbsp;&nbsp;
+                    </div>
+                </div>
+            </div>
+        }
+    </body>
+</html>
+
