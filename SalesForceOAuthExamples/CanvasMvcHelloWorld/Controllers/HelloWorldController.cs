@@ -10,7 +10,7 @@ namespace CanvasMvcHelloWorld.Controllers
     public class HelloWorldController : Controller
     {
         public SalesForceOAuth.RootObject oAuth { get; set; }
-        // GET: /HelloWorld/
+        // GET: /HelloWorld/123
         public ActionResult Index()
         {
             var postedSignedRequest = Request.Form["signed_request"];
